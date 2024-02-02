@@ -74,14 +74,14 @@ body {
     transform: translate(-70%,-100%);
     width: 3px;
     height: 160px;
-    background: #6d3fd5;
+    background: #15ff00;
 }
 
 .container .in-inner-container .sec-hand::after {
     content: "";
     height: 14px;
     width: 14px;
-    background: #6d3fd5;
+    background: #1eff00;
     border-radius: 100%;
     position: absolute;
     top: 0%;
@@ -145,7 +145,7 @@ body {
     transform: translate(-50%,-50%);
     font-size: 25px;
     margin-top: 4px;
-    color: #6D3FD5;
+    color: #15ff00;
 }
 
 .container .lines {
