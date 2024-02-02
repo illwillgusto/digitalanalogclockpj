@@ -25,6 +25,7 @@ body {
     overflow: hidden;
 }
 
+/* this is the container within the larger container, second level*/
 .container .inner-container {
     height: 315px;
     width: 315px;
@@ -33,16 +34,16 @@ body {
     z-index: 1;
 }
 
-.container .inner-container .sec-hand::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%,-100%);
-    width: 3px;
-    height: 160px;
-    background: #6d3fd5;
+/* this is the container within the second level container, third level*/
+.container .inner-container .in-inner-container {
+   height: 310px;
+   width: 310px;
+   border-radius: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 1;
 }
 
 
