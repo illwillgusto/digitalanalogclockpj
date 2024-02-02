@@ -5,7 +5,9 @@
 }
 
 body {
-    background: #E5EAED;
+    background-image: url(asset/64DA2A3B-DF58-4056-8ECA-396A705E0579.jpeg);
+    background-repeat: none;
+    background-size: cover;
     font-family: 'poppins', sans-serif;
 }
 
