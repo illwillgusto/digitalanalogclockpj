@@ -46,6 +46,50 @@ body {
    z-index: 1;
 }
 
+.container .inner-container .cover {
+    background: #292c33;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+}
+
+.container .inner-container .sec-hand {
+    position: absolute;
+    height: 315px;
+    width: 315px;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.container .inner-container .sec-hand::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%,-100%);
+    width: 3px;
+    height: 160px;
+    background: #6d3fd5;
+}
+
+.container .in-inner-container .sec-hand::after {
+    content: "";
+    height: 14px;
+    width: 14px;
+    background: #6d3fd5;
+    border-radius: 100%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+
 
 
 
